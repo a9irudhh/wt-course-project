@@ -17,11 +17,6 @@ export default function Signup() {
   const [starlab, setStarlab] = useState("");  // Added for starlab
   const [submitting, setSubmitting] = useState(false);
 
-  useEffect(() => {
-    if (localStorage.getItem("token")) {
-      navigate("/");
-    }
-  }, [navigate]);
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
