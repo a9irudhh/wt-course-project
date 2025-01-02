@@ -66,7 +66,7 @@ try:
     print("Clicked on 'Enter SPMS' link.")
     time.sleep(10)
     # Step 7: Verify Successful Login
-    print("Login Successful! Test Case 1 Passed.")
+    print("Login Successful!\nTest Case 1 Login Passed.")
 
 except Exception as e:
     print(f" An error occurred: {e}")

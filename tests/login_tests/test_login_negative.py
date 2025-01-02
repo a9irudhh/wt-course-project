@@ -70,7 +70,7 @@ try:
         print("✔️ Correct behavior: Login failed, as expected!")
 
 except Exception as e:
-    print(f"An error occurred: {e}\nTest Case Failed!")
+    print(f"An error occurred\nTest Case Login Failed!")
 
 finally:
     print("🛑 Closing WebDriver...")
